@@ -1,6 +1,5 @@
 import Box from "@mui/material/Box";
 
-
 const Header = () => {
     return (
         <>
@@ -8,11 +7,19 @@ const Header = () => {
                 sx={{
                     width: "100%",
                     px: "2rem",
-                    py: "1rem"
+                    py: "1rem",
+                    textAlign: "center",
+                    backgroundColor: "#F00000"
                 }}    
             >
-                <h1>Hola</h1>
+                <h1>Poke-API</h1>
             </Box>
+            <Box
+                sx={{
+                    height: "1.5rem",
+                    backgroundColor: "#222224"
+                }}
+            />
         </>
     )
 }
