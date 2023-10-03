@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box';
 import Header from '../Header';
 import TabSwitcher from '../TabSwicther';
+import CardContainer from '../Cards/CardContainer';
 
 export default function Container () {
     return (
@@ -8,7 +9,7 @@ export default function Container () {
             <Box>
                 <Header />
                 <TabSwitcher />
-                <body>Cartas random</body>
+                <CardContainer />
             </Box>
         </>
     )
